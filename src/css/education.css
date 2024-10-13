@@ -1,0 +1,23 @@
+#education_main
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.education_element
+{
+    width: 50%;
+}
+.education_image
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+.montserrat-aboutme {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}

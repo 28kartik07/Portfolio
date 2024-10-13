@@ -1,0 +1,17 @@
+#footer_main
+{
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer_element
+{
+    margin-right: 5rem;
+}
+.footer_image
+{
+    height: 1rem;
+    width: 1rem;
+}

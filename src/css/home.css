@@ -1,0 +1,51 @@
+.home_main
+{
+    /* background-color: rgb(13, 13, 13); */
+    background-color: black;
+    height: 79vh;
+    color: white;
+    width: 80%;
+    display: flex;
+}
+.home_element
+{
+    margin-top: 2rem;
+}
+.my_image
+{
+    /* margin-top: 2rem; */
+    height: 100%; 
+
+    /* height: 80%; */
+    /* border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%; */
+    border-bottom-left-radius: 25px;
+    opacity: 0.6;
+}
+/* .glow-image 
+{
+    filter: drop-shadow(0 0 30px rgba(136, 136, 122, 0.8));  Yellow glow
+} */
+
+.montserrat-aboutme {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+  
+/* Css for scroll button  */
+.scroll_button
+{
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    border-radius: 100%;
+    background-color: black;
+}
+.scroll_image
+{
+    height: 60%;
+    width: 60%  ;
+}
