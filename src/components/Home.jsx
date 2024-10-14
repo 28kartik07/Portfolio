@@ -7,7 +7,7 @@ function Home()
         <div style={{display:"flex" ,flexDirection:"column", justifyContent: "center",alignItems:"center"}}>
             <div className="home_main" id='home_main'>
                 <div className='home_element' style={{width : "40%"}}>
-                    <img className="my_image glow-image" src="image/kartik2.jpeg" alt="" /> 
+                    <img className="my_image glow-image" src="image/mypic.jpeg" alt="" /> 
                 </div>
                 <div className='home_element'  style={{width : "60%"}}>
                     <div className='about-me montserrat-aboutme' style={{height : "80%", marginTop:"2rem"}}>
