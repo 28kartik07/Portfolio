@@ -29,7 +29,7 @@ function Skills()
                     <img src="/image/node.png" alt="skill" />
                 </div>
                 <div className='image'>
-                    <img src="/image/express.png" style={{height:"6rem" , width:"11rem" }} alt="skill" />
+                    <img src="/image/express.png" style={{width:"10rem" }} alt="skill" />
                 </div>
                 <div className='image'>
                     <img src="/image/mongodb.png" alt="skill" />
