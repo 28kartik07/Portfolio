@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 function Header()
 {
     return (
-        <div style={{display: "flex", justifyContent: "center"}}>
+        // <div className="this_is_header" style={{display: "flex", justifyContent: "center"}}>
             <div id='header_main'>
                 <div className='header_element'>
                     <NavLink className={({ isActive }) => `ubuntu-regular navlink ${isActive ? 'active' : 'inactive'}`} to={'/'} >Home</NavLink>
@@ -18,7 +18,7 @@ function Header()
                     <NavLink  className={({ isActive }) => `ubuntu-regular navlink ${isActive ? 'active' : 'inactive'}`}   to={'/Achievements'}>Achievements</NavLink>
                 </div>
             </div>
-        </div>
+        // </div>
     )
 }
 

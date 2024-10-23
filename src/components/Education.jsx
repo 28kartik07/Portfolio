@@ -41,7 +41,6 @@ function Education ()
             <div className='education_element'>
                 <img className='education_image' src="image/download.jpeg" alt="hello" />
                 <div className='bulb' >
-                     
                 </div>
             </div>
         </div>

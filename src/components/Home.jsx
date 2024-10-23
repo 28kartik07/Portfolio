@@ -4,10 +4,10 @@ import ScrollButton from './ScrollButton';
 function Home()
 {
     return (
-        <div style={{display:"flex" ,flexDirection:"column", justifyContent: "center",alignItems:"center"}}>
+        <div className='this_is_home' style={{display:"flex" ,flexDirection:"column", justifyContent: "center",alignItems:"center", flexWrap:'wrap'}}>
             <div className="home_main" id='home_main'>
-                <div className='home_element' style={{width : "40%"}}>
-                    <img className="my_image glow-image" src="image/mypic.jpeg" alt="" /> 
+                <div className='home_element' style={{width : "40%" , display:'flex', alignItems:'center',justifyContent: 'center'}}>
+                    <img className="my_image glow-image" src="image/my image.jpg" alt="" /> 
                 </div>
                 <div className='home_element'  style={{width : "60%"}}>
                     <div className='about-me montserrat-aboutme' style={{height : "80%", marginTop:"2rem"}}>

@@ -12,7 +12,7 @@ function Projects()
                         through form given in the website</li>
                         <li>User-friendly interface for easy setup and management</li>
                         <li>Secure user authentication and real-time schedule updates</li>
-                        <li>Github Link : </li>
+                        <li>Github : <a href="https://github.com/nagdaji/Mini-Project" target='blank'>Link</a>&nbsp; Deployment : <a href="https://confoease.onrender.com/" target='blank'>Link</a></li>
                     </ul>
                 </div>
                 <div className='elements' style={{display:"flex" , justifyContent:"center" , alignItems: "center"}}>
@@ -28,14 +28,14 @@ function Projects()
                         <li>Visual indicators for errors and correct words/characters</li>
                         <li>Profile pages where users can view their typing statistics
                         and history</li>
-                        <li>Github Link : </li>
+                        <li>Github : <a href="https://github.com/28kartik07/GoType" target='blank'>Link</a>&nbsp; Deployment : <a href="https://gotype.onrender.com/" target='blank'>Link</a></li>
                     </ul>
                 </div>
                 <div className='elements' style={{display:"flex" , justifyContent:"center" , alignItems: "center"}}>
                     <img style={{marginLeft: "2rem" , marginTop:"3rem" ,height: "70%" , width: "70%"}} src="video/gotype.gif" alt="gif" />
                 </div>
             </div>
-            <div className='project'>
+            {/* <div className='project'>
                 <div className='elements'>
                 <h1 style={{color:"orange"}}>To-DO List</h1>
                     <ul>
@@ -46,7 +46,7 @@ function Projects()
                 <div className='elements'  style={{display:"flex" , justifyContent:"center" , alignItems: "center"}}>
 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

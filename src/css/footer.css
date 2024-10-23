@@ -3,11 +3,13 @@
     margin-top: 2rem;
     color: white;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .footer_element
 {
+    height: 3rem;
     margin-right: 5rem;
 }
 .footer_image
